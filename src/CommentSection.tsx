@@ -4,7 +4,8 @@
 * @module
 */
 
-import { useState, useEffect } from "npm:preact@10.26.4/hooks";
+import { h } from 'preact';
+import { useState, useEffect } from 'preact/hooks';
 import { AppBskyFeedDefs, type AppBskyFeedGetPostThread } from 'npm:@atproto/api@0.14.9';
 import { CommentOptions } from './types.tsx';
 import { PostSummary } from './PostSummary.tsx';

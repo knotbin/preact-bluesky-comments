@@ -1,7 +1,7 @@
 {
   "name": "@knotbin/preact-bluesky-comments",
   "license": "MIT",
-  "version": "0.9.1",
+  "version": "0.9.3",
   "description": "Embed Bluesky comments on your Preact website",
   "main": "./dist/bluesky-comments.umd.js",
   "module": "./dist/bluesky-comments.es.js",

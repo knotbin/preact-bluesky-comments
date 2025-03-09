@@ -1,7 +1,7 @@
 /**
-This module allows you to filter out comments based on likes, 
-characters, text, pins, or exact matches.
-@module
+* This module allows you to filter out comments based on likes, 
+* characters, text, pins, or exact matches.
+* @module
 */
 
 import { AppBskyFeedPost, type AppBskyFeedDefs } from 'npm:@atproto/api@0.14.9';
@@ -51,8 +51,8 @@ const ExactMatchFilter = (
 };
 
 /* 
-  This function allows you to filter out comments based on likes,
-  characters, text, pins, or exact matches.
+* This function allows you to filter out comments based on likes,
+* characters, text, pins, or exact matches.
 */
 export const Filters: {
   MinLikeCountFilter: (min: number) => (comment: AppBskyFeedDefs.ThreadViewPost) => boolean;

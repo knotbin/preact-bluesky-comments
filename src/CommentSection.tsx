@@ -1,7 +1,7 @@
 /**
-This module defines the CommentSection component. 
-It fetches the comments for a post and displays them in a threaded format.
-@module
+* This module defines the CommentSection component. 
+* It fetches the comments for a post and displays them in a threaded format.
+* @module
 */
 
 import { useState, useEffect } from "npm:preact@10.26.4/hooks";
@@ -22,8 +22,8 @@ const getAtUri = (uri: string): string => {
 };
 
 /**
- This component displays a comment section for a post. 
- It fetches the comments for a post and displays them in a threaded format.
+* This component displays a comment section for a post. 
+* It fetches the comments for a post and displays them in a threaded format.
 */
 export const CommentSection = ({
   uri: propUri,

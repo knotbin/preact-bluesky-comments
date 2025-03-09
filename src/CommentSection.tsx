@@ -1,3 +1,9 @@
+/**
+This module defines the CommentSection component. 
+It fetches the comments for a post and displays them in a threaded format.
+@module
+*/
+
 import { useState, useEffect } from "npm:preact@10.26.4/hooks";
 import { AppBskyFeedDefs, type AppBskyFeedGetPostThread } from 'npm:@atproto/api@0.14.9';
 import { CommentOptions } from './types.tsx';
@@ -15,6 +21,10 @@ const getAtUri = (uri: string): string => {
   return uri;
 };
 
+/**
+ This component displays a comment section for a post. 
+ It fetches the comments for a post and displays them in a threaded format.
+*/
 export const CommentSection = ({
   uri: propUri,
   author,
